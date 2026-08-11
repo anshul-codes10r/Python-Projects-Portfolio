@@ -86,17 +86,6 @@ The data exists only while the program is running. It is not permanently saved t
 
 This project was built to practice Python fundamentals and understand how multiple functions, loops, lists, conditions, and input validation can work together to create a complete terminal application.
 
-🚀 Future Improvements
-
-Possible improvements for a future version could include:
-
-- Permanent data storage
-- Better input error handling
-- Expense categories
-- Date tracking
-- Search and filtering
-- More detailed expense summaries
-
 👨‍💻 Project Status
 
 Completed — Python Terminal Project
