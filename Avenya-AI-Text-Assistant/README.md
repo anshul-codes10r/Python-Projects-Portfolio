@@ -30,10 +30,10 @@ Any input that is not a recognized built-in command is handled as an AI request.
 
 🛠️ Technologies Used
 
-- Python
-- "requests"
-- "python-dotenv"
-- "webbrowser"
+- `Python`
+- `requests`
+- `python-dotenv`
+- `webbrowser`
 - Groq API
 - Environment variables
 
@@ -41,7 +41,7 @@ Any input that is not a recognized built-in command is handled as an AI request.
 
 Avenya-AI-Text-Assistant/
 │
-├── Avenya.py
+├── Avenya_project.py
 ├── .gitignore
 └── README.md
 
@@ -49,15 +49,11 @@ Avenya-AI-Text-Assistant/
 
 ⚙️ Setup
 
-1. Clone or download the repository
-
-Download the project files to your device.
-
-2. Install dependencies
+1. Install dependencies
 
 pip install requests python-dotenv
 
-3. Create the ".env" file
+2. Create the ".env" file
 
 Create a file named:
 
@@ -69,13 +65,11 @@ GROQ_API_KEY=your_api_key_here
 
 Never publish your real API key on GitHub.
 
-4. Run Avenya
+3. Run Avenya
 
-Run the Python source file:
+python Avenya_project.py
 
-python Avenya.py
-
-🔐 Security Note
+🔐 Security
 
 Avenya loads the Groq API key from an environment variable instead of placing the secret directly inside the Python source code.
 
@@ -93,17 +87,15 @@ Avenya was created as a hands-on Python project to practice:
 - Environment variables
 - Command validation
 - JSON response handling
-- Basic automation with "webbrowser"
+- Basic automation with `webbrowser`
 
 👨‍💻 Creator
 
 Anshul — ANSHUL-CODES
 
-Created: August 8, 2026
-
-Language: Python 🐍
-
-Status: Online 🟢
+- Created: August 8, 2026
+- Language: Python 🐍
+- Status: Online 🟢
 
 ---
 
